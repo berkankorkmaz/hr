@@ -1,0 +1,22 @@
+<h2>Candidate Detail</h2> 
+<table class="table table-border table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Photo</th>
+        </tr>
+    </thead>
+    <tbody>
+            <tr>
+                    <td>{{selectedEmployee.name.first}}</td> 
+                    <td>{{selectedEmployee.name.last}}</td>
+                    <td>{{selectedEmployee.cell}}</td> 
+                    <td>{{selectedEmployee.email}}</td> 
+                    <td><img src="{{selectedEmployee.picture.thumbnail}}"></td> 
+            </tr>
+    </tbody>
+</table>
+
